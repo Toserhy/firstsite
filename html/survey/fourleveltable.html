@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../css/survey/survey.css"/>
+		<link rel="shortcut icon"href="../../img/myico.ico"/>
+	</head>
+	<body>
+		<div id="bkg">
+			
+		</div>
+		
+		<div id="append" class="circle">
+			<img src="../../img/survey/plus.png" >
+			<span>添加站数</span>
+		</div>
+		
+		<div id="delete" class="circle">
+			<img src="../../img/survey/subtract.png" >
+			<span>减少站数</span>
+		</div>
+		
+		<div id="chooseK">
+			<img src="../../img/survey/k.png" >
+			<span>K值：</span>
+			<input type="" name="" id="valueofK" value="" />
+		</div>
+		
+		<div id="calculate" class="circle">
+			<img src="../../img/survey/equal.png" >
+			<span>计算结果</span>
+		</div>
+		
+		<div class="headtab">
+			<p>四等水准观测手簿</p>
+			<table height="160" width="800" border="1" cellspacing="0" cellpadding="0" bordercolor="black">
+				<tr height="40" align="center"><td rowspan="4" width="30">测<br>站<br>编<br>号</td>
+				<td rowspan="2" width="30" >后尺</td>
+				<td width="60"></td>
+				<td rowspan="2" width="30">前尺</td>
+				<td width="60"></td>
+				<td rowspan="4" width="70">方向及尺号</td>
+				<td width="70" rowspan="2" colspan="2" >标尺读数</td>
+				<td width="100" rowspan="4">K+黑减红</td>
+				<td rowspan="4" width="100">高差<br>中数</td>
+				<td rowspan="4" width="80">备考</td>
+				</tr>
+				
+				<tr height="40"><td></td><td></td></tr>
+				
+				<tr align="center" height="40"><td  colspan="2">前距</td><td colspan="2">后距</td><td rowspan="2">黑面</td><td rowspan="2">红面</td></tr>
+				
+				<tr align="center" height="40"><td  colspan="2">视距差d</td><td colspan="2">∑d</td></tr>
+				
+			</table>
+		</div>
+		
+		<div class="bellytab" id="belly">
+			<table height="160" width="800" border="1" cellspacing="0" cellpadding="0" bordercolor="black">
+				<!-- 第一行 -->
+				<tr height="40">
+				<td width="30" rowspan="4" class="stationid" >1</td> 
+				<td width="92" ><input type="text" name="" id="" value="" class="oneone" /></td>
+				<td width="92" ><input type="" name="" id="" value="" class="onetwo" /></td>
+				<td width="70" >后</td>
+				<td width="108"><input type="" name="" id="" value="" class="onethree" /></td>
+				<td width="108"><input type="" name="" id="" value="" class="onefour" /></td>
+				<td width="100"><input type="" name="" id="" value="" class="onefive" /></td>
+				<td width="100"></td>
+				<td rowspan="4"></td>	
+				</tr>
+				
+				<!-- 第二行 -->
+				<tr height="40">
+				<td><input type="" name="" id="" value="" class="twoone" /></td>
+				<td><input type="" name="" id="" value="" class="twotwo" /></td>
+				<td>前</td>
+				<td><input type="" name="" id="" value="" class="twothree" /></td>
+				<td><input type="" name="" id="" value="" class="twofour" /></td>
+				<td><input type="" name="" id="" value="" class="twofive" /></td>
+				<td></td>
+				</tr>
+				
+				<!-- 第三行 -->
+				<tr height="40">
+				<td><input type="" name="" id="" value="" class="threeone" /></td>
+				<td><input type="" name="" id="" value="" class="threetwo" /</td>
+				<td>后-前</td>
+				<td><input type="" name="" id="" value="" class="threethree" /</td>
+				<td><input type="" name="" id="" value="" class="threefour" /</td>
+				<td><input type="" name="" id="" value="" class="threefive" /</td>
+				<td><input type="" name="" id="" value="" class="threesix" /</td>
+				</tr>
+				<!-- 第四行 -->
+				<tr height="40">
+				<td><input type="" name="" id="" value="" class="fourone" /</td>
+				<td><input type="" name="" id="" value="" class="fourtwo" /</td>
+				<td colspan="5"></td>
+				</tr>
+			</table>
+		</div>
+		
+		<script src="../../js/fourleveltable.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
