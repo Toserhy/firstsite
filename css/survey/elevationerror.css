@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei";
+	box-sizing:content-box;
+}
+
+body::-webkit-scrollbar 
+{ display: none; }
+
+#bkg{
+	background: url(../../img/survey/bkg2.jpg);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
+	z-index: -1;
+	top: 0;
+}
+
+table{
+	display: inline-block;
+	position: inherit;
+	height: 21.7rem;
+	width: 6.25rem;
+	margin-left: -7px;
+	border-style: solid;
+	border-width: 1px;
+}
+td{
+	width: 6.26rem;
+	height: 3.5rem;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+}
+tr{
+	border-style: solid;
+	border-width: 1px;
+}
+input{
+	 width: 3.125rem;
+	 height: 1.875rem;
+}
+span{
+	display: inline-block;
+	position: absolute;
+	top: 35%;
+	left:45%;
+}
+p{
+	text-align: center;
+	font-size: larger;
+	line-height: 5rem;
+}
+.two{
+	height: 1.75rem;
+}
+
+#tab{
+	position: relative;
+	height: 30rem;
+	width: 40rem;
+	background: white;
+	top: 3.125rem;
+	left:35%;
+	padding-left: 2.8rem;
+	border-radius: 0.5rem;
+	transition: 0.3s;
+	margin-bottom: 5%;
+}
+
+#four{
+	margin-left: -6px;
+}
+
+#append{
+	position: fixed;
+	top: 20%;
+	left: 10%;
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
+	background:#3498db;
+	transition: 0.3s;
+	cursor: pointer;
+	color: transparent;
+	font-size: 1.5rem;
+}
+
+#delete{
+	position: fixed;
+	top: 40%;
+	left: 10%;
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
+	background: #2ECC71;
+	transition: 0.3s;
+	color: transparent;
+	font-size: 1.5rem;
+}
+
+#calculate{
+	position: fixed;
+	left: 10%;
+	top: 60%;
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
+	background: #e65100;
+	transition: 0.3s;
+	color: transparent;
+	font-size: 1.5rem;
+}
+
+img{
+	max-width: 6rem;
+	max-width: 6rem;
+	}
+img:hover{
+	animation: circle 0.35s linear ;
+}
+@keyframes circle{
+	0%{
+		transform:rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+#append:hover{
+	width: 15rem;
+	border-radius: 3rem;
+	color: #000000;
+}
+
+#delete:hover{
+	width: 15rem;
+	border-radius: 3rem;
+	cursor: pointer;
+	color: #000000;
+}
+#calculate:hover{
+	width: 15rem;
+	border-radius: 3rem;
+	cursor: pointer;
+	color: #000000;
+}

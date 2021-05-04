@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #be2edd;
+}
+
+#interst{
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	background: #fed330;
+	transition: 0.3s;
+}
+
+#resource{
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	left: 25%;
+	background: #82ccdd;
+	transition: 0.3s;
+}
+
+#study{
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	left: 50%;
+	background: #fa8231;
+	transition: 0.3s;
+}
+
+#develop{
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	left: 75%;
+	background: #be2edd;
+	transition: 0.3s;
+}
+
+#onecontent{
+	position: inherit;
+	background: transparent;
+	left: 15%;
+	margin-top: 50px;
+	width: 70%;
+	height: 80%;
+	align-content: center;
+}
+#onecontent img{
+	position:inherit;
+	margin-top: 80px;
+	left: 25%;
+	max-height: 0px;
+	max-width: 0px;
+	transition: 0.3s;
+}
+
+#onecontent a{
+	margin-top: 400px;
+	position: inherit;
+	display: block;
+	left: 0%;
+	color: transparent;
+	transition: 0.3s;
+	text-decoration: none;
+	font-size: 1.25rem;
+}
+
+#twocontent{
+	position: inherit;
+	background: transparent;
+	left: 15%;
+	margin-top: 50px;
+	width: 70%;
+	height: 80%;
+	align-content: center;
+}
+#twocontent img{
+	position:inherit;
+	margin-top: 70px;
+	left: 25%;
+	max-height: 0px;
+	max-width: 0px;
+	transition: 0.3s;
+}
+
+#twocontent a{
+	margin-top:  400px;
+	position: inherit;
+	display: block;
+	left: 0%;
+	color: transparent;
+	transition: 0.3s;
+	text-decoration: none;
+	font-size:1.25rem;
+}
+
+#threecontent{
+	position: inherit;
+	background: transparent;
+	left: 15%;
+	margin-top: 80px;
+	width: 70%;
+	height: 80%;
+	align-content: center;
+}
+#threecontent img{
+	position:inherit;
+	margin-top: 50px;
+	left: 25%;
+	max-height: 0px;
+	max-width: 0px;
+	transition: 0.3s;
+}
+
+#threecontent a{
+	margin-top:  400px;
+	position: inherit;
+	display: block;
+	left: 15%;
+	color: transparent;
+	transition: 0.3s;
+	text-decoration: none;
+	font-size: 1.25rem;
+}
+
+#fourcontent{
+	position: inherit;
+	background: transparent;
+	left: 15%;
+	margin-top: 80px;
+	width: 70%;
+	height: 80%;
+	align-content: center;
+}
+#fourcontent img{
+	position:inherit;
+	margin-top: 50px;
+	left: 25%;
+	max-height: 0px;
+	max-width: 0px;
+	transition: 0.3s;
+}
+
+#fourcontent a{
+	margin-top:  400px;
+	position: inherit;
+	display: block;
+	left: 20%;
+	color: transparent;
+	transition: 0.3s;
+	text-decoration: none;
+	font-size: 1.25rem;
+}
+
+.enter{
+	position: inherit;
+	left: 71%;
+	top: 474px;
+}
+
+.enter img{
+	max-height: 0px;
+	max-width: 0px;
+}
+
+.special {
+	position: inherit;
+	left: 76%;
+	top: 447px;
+}
+
+.special img{
+	max-height: 0px;
+	max-width: 0px;
+}
+
+
+
+
