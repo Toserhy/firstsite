@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	position: relative;
+	height: 100vh;
+	width:100vw;
+	background-color: #e74c3c;
+	overflow: hidden;
+}
+
+.record{
+	position: absolute;
+	left: 10%;
+	top: 28%;
+	height: 60%;
+	width: 16%;
+	background-color: #f18701;
+	border-radius: 1rem;
+	overflow: auto;
+	padding: 1%;
+}
+
+.record:hover{
+	box-shadow: 3px 3px 8px #b2bec3;
+	transition: 0.3s;
+}
+
+.score{
+	position: absolute;
+	left: 10%;
+	top:8%;
+	height: 15%;
+	width: 16%;
+	background-color: #f9c74f;
+	border-radius: 1rem;
+	text-align: center;
+}
+
+.interface{
+	position: relative;
+	left: 30%;
+	top:8%;
+	height: 80%;
+	width: 45%;
+	background-color: #8ac926;
+	border-radius: 1rem;
+}
+
+.idtable{
+	position:absolute;
+	left: 0%;
+	top:5%;
+	height: 15%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.id img{
+	height: 100%;
+	width: 37%;
+	border-radius: 50%;
+}
+
+
+.id{
+	flex: 33%;
+}
+
+#palyer{
+	border-top-right-radius: 6rem;
+	border-bottom-right-radius: 6rem;
+	background-color: #ffca3a;
+}
+
+#computer{
+	border-bottom-left-radius: 6rem;
+	border-top-left-radius: 6rem;
+	background-color: #1982c4;
+}
+
+.fist{
+	position: absolute;
+	top: 8%;
+	right: 6%;
+	width: 16%;
+	height: 80%;
+	background-color:#41ead4;
+	border-radius: 1rem;
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+.select{
+	position: relative;
+}
+
+.select img{
+	position:relative;
+	height: 70%;
+	width: 70%;
+}
+
+.select img:hover{
+	height: 75%;
+	width: 75%;
+	transition: 0.3s;
+}
+
+.gametable{
+	position: relative;
+	left: 0%;
+	top: 33%;
+	height: 75%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 15%;
+}
+
+.playerfist{
+	position: relative;
+	height: 180px;
+	overflow: hidden;
+	position: relative;
+	padding-right: 10%;
+}
+
+.computerfist{
+	position: relative;
+	height: 180px;
+	overflow: hidden;
+	position: relative;
+	padding-left: 10%;
+}
+
+.playerfist img{
+	position: relative;
+	top: 0rem;
+	left:0%;
+	height: 180px;
+	width: 180px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex: 33%;
+	transition: 0.5s;
+}
+
+.computerfist img{
+	position: relative;
+	top: 0rem;
+	left:0%;
+	height: 180px;
+	width: 180px;
+	transform: rotateY(180deg); 
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	transition: 0.5s;
+}
+
